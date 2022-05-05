@@ -1,0 +1,20 @@
+{
+  "name": "jsdoc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf docs",
+    "docs": "rimraf docs  && jsdoc -c jsdoc.json",
+    "deploy": "gh-pages -d docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-jsdoc-theme": "^3.3.4",
+    "eslit": "^6.0.0",
+    "jsdoc": "^3.6.10",
+    "rimraf": "^3.0.2"
+  }
+}
